@@ -1,0 +1,28 @@
+{
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "entity.name.tag",
+                "settings": {
+                    "foreground": "#da6767"
+                }
+            },
+            {
+                "scope": [
+                    "variable.other.property", // Object properties
+                ],
+                "settings": {
+                    "foreground": "#4e6fdb" // Color for the properties
+                }
+            },
+            {
+                "scope": [
+                    "entity.other.attribute-name", // Object properties
+                ],
+                "settings": {
+                    "foreground": "#55b9b4" // Color for the properties
+                }
+            }
+        ]
+    }
+}
